@@ -92,6 +92,7 @@
   <project path="device/samsung/galaxys2att" name="CyanogenMod/android_device_samsung_galaxys2att"/>
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" />
+  <project path="device/samsung/galaxysl" name="galaxyishere/android_device_samsung_galaxysl" />
   <project path="device/samsung/mesmerizemtd" name="CyanogenMod/android_device_samsung_mesmerizemtd" />
   <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" />
   <project path="device/samsung/showcasemtd" name="CyanogenMod/android_device_samsung_showcasemtd" />
@@ -304,7 +305,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="galaxyishere/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -313,6 +314,9 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="vendor/samsung/galaxysl" name="galaxyishere/android_vendor_samsung_galaxysl" />
+  <project path="kernel/samsung/latona" name="galaxyishere/android_kernel_samung_galaxysl" />
+
+  <project path="android" name="galaxyishere/android" />
 
 </manifest>
